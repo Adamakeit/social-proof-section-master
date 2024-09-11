@@ -21,7 +21,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://adamakeit.github.io/social-proof-section-master/)
 
 ## My process
 
