@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "League";
+  src: url(../assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
+  font-family: 400 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 160svh;
+  font-family: "league";
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2rem;
+  margin-block-start: 1.6rem;
+}
+.header h1 {
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+  padding-inline: 1rem;
+  margin-block-end: 1rem;
+  font-weight: 700;
+}
+.header p.first-para {
+  text-align: center;
+  color: hsl(303, 10%, 53%);
+}
+
+.star_blog {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: 0.4rem;
+  background-color: hsl(300, 24%, 96%);
+}
+.star_blog p i {
+  color: orange;
+}
+.star_blog p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 500;
+}
+.star_blog .star {
+  display: flex;
+  gap: 0 0.3rem;
+  margin-block: 0.5rem;
+  padding: 0.4rem;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  margin-block: 1rem;
+  margin-inline: 2rem;
+  padding: 1.8rem;
+  border-radius: 10px;
+}
+.card_info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0 1rem;
+  margin-block-end: 1rem;
+}
+.card_info p {
+  color: hsl(300, 24%, 96%);
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+.card_info p span {
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+}
+.card_info img {
+  width: 40px;
+  border-radius: 50%;
+}
+.card p {
+  color: hsl(300, 24%, 96%);
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    min-height: 100vh;
+  }
+  .header {
+    margin-inline: 0rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  .header_description {
+    width: 30%;
+  }
+  .header_description h1 {
+    text-align: start;
+    font-size: 2.3rem;
+    font-weight: 900;
+  }
+  .header_description p.first-para {
+    text-align: start;
+    font-weight: 600;
+  }
+  .star {
+    display: flex;
+    gap: 0 0.3rem;
+    padding: 0.4rem;
+  }
+  .star_blog.two {
+    margin-inline-start: 3rem;
+  }
+  .star_blog.three {
+    margin-inline-start: 5rem;
+  }
+  .card-part {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-inline: 1rem;
+    width: 320px;
+    margin-block-start: 2rem;
+  }
+  .card.two {
+    margin-block-start: 5rem;
+  }
+  .card.three {
+    margin-block-start: 8rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
